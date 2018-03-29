@@ -1,6 +1,6 @@
 # Screenshot sequence
 
-!(VirtualBox_ubuntu-desktop-18_29_03_2018_09_10_34.png)
+!(https://github.com/fransimo/vagrant-ubuntu-18-base-box/tree/master/step-by-step-screenshots/VirtualBox_ubuntu-desktop-18_29_03_2018_09_10_34.png "img")
 
 !(VirtualBox_ubuntu-desktop-18_29_03_2018_09_11_38.png)
 
