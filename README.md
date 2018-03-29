@@ -13,7 +13,7 @@ If you only want the image use [this](ready-to-use/README.md)
 1. Run the minimal Ubuntu installation
    - Virtual machine name is ubuntu-desktop-18 
    - for this box I use 4G RAM and 60G dynamic disk
-   - you can check the screeen shots sequence [here](step-by-step-screenshots/REAME.md)
+   - you can check the screeen shots sequence [here](step-by-step-screenshots/README.md)
    - Important
 	  user and password must be: vagrant
 
