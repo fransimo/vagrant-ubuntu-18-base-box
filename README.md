@@ -5,7 +5,7 @@ It's the first step to update our development environment https://github.com/fra
 
 If you only want the image use [this](ready-to-use/README.md) 
 
-#step-by-step
+# step-by-step
 1. Download the daily ubuntu image
 - http://cdimage.ubuntu.com/daily-live/current/HEADER.html
 
