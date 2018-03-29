@@ -49,19 +49,19 @@ vagrant ALL=(ALL) NOPASSWD: ALL
 - modify Vagrantfile and activate the gui
 - vagrant up
 
-1. Test cycle if your tuning
+1. Test loop if your tuning
 - rm package.box
 - vagrant package --base ubuntu-desktop-18 
 - vagrant box remove u18
 - vagrant destroy
 - rm Vagrantfile
 - vagrant init u18 package.box
-- modify Vagrantfile and activate the gui
+- #modify Vagrantfile and activate the gui
 - vagrant up
 
 1. Automated
 - This steps are automated in vagrant-init/init.sh
 
 References
-https://www.vagrantup.com/docs/boxes/base.html
-https://www.vagrantup.com/docs/virtualbox/boxes.html
+[Creating Base Boxes](https://www.vagrantup.com/docs/boxes/base.html)
+[Special notes for Virtual Box](https://www.vagrantup.com/docs/virtualbox/boxes.html)
