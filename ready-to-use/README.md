@@ -1,7 +1,7 @@
 # Try Ubuntu 18 desktop with Vagrant 
 
 ## Easy
-Download [Vagrantfile](Vagrantfile)
+Download [Vagrantfile](Vagrantfile?raw=1)
 
 ## Standard
 1. vagrant init fransimo/ubuntu-18-BETA-desktop
