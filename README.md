@@ -3,7 +3,7 @@
 This is a step by step guide to create a vagrant base image for Ubuntu Desktop 18 for VirtualBox.
 It's the first step to update our development environment https://github.com/fransimo/vagrant-qa-automation-development-environment.
 
-If you only want the image use
+If you only want the image use [this](ready-to-use/README.md) 
 
 #step-by-step
 1. Download the daily ubuntu image
