@@ -62,6 +62,7 @@ vagrant ALL=(ALL) NOPASSWD: ALL
 1. Automated
 - This steps are automated in vagrant-init/init.sh
 
-References
+## References
 [Creating Base Boxes](https://www.vagrantup.com/docs/boxes/base.html)
+
 [Special notes for Virtual Box](https://www.vagrantup.com/docs/virtualbox/boxes.html)
