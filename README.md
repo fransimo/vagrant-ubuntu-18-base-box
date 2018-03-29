@@ -17,7 +17,7 @@ If you only want the image use [this](ready-to-use/README.md)
 - Important
 	user and password must be: vagrant
 
-1. Virtual machine tunning for vagarnt automation
+2. Virtual machine tunning for vagarnt automation
 - install virtual box tools
   - sudo apt-get install gcc make perl
 
@@ -40,16 +40,16 @@ vagrant ALL=(ALL) NOPASSWD: ALL
   - ssh -i vagrant vagrant@localhost
   - rm vagrant vagrant.pub 
 
-1. Create the box
+3. Create the box
 - Choose a directory for creating and testing the box
 - vagrant package --base ubuntu-desktop-18 
 
-1. Test the image
+4. Test the image
 - vagrant init u18 /Users/fran/Documents/workspace/vagrant-ubuntu-18-base-box/package.box
 - modify Vagrantfile and activate the gui
 - vagrant up
 
-1. Test loop if your tuning
+5. Test loop if your tuning
 - rm package.box
 - vagrant package --base ubuntu-desktop-18 
 - vagrant box remove u18
@@ -59,7 +59,7 @@ vagrant ALL=(ALL) NOPASSWD: ALL
 - #modify Vagrantfile and activate the gui
 - vagrant up
 
-1. Automated
+6. Automated
 - This steps are automated in vagrant-init/init.sh
 
 ## References
