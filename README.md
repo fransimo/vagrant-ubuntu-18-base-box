@@ -7,9 +7,7 @@ If you only want the image use [this](ready-to-use/README.md)
 
 # step-by-step
 
-1. Download the daily ubuntu image
-- http://cdimage.ubuntu.com/daily-live/current/HEADER.html
-
+1. Download the [daily ubuntu image](http://cdimage.ubuntu.com/daily-live/current/HEADER.html)
 1. Run the minimal Ubuntu installation
    - Virtual machine name is ubuntu-desktop-18 
    - for this box I use 4G RAM and 60G dynamic disk
@@ -20,8 +18,8 @@ If you only want the image use [this](ready-to-use/README.md)
 2. Virtual machine tunning for vagarnt automation
    - install virtual box tools
      - sudo apt-get install gcc make perl
-
-   - insert guest addition disk
+     - insert guest addition disk from VirtualBox menu
+     - install additions 
 
    - install virtual box vagrant dependencies
      - sudo apt-get install linux-headers-$(uname -r) build-essential dkms
@@ -29,7 +27,7 @@ If you only want the image use [this](ready-to-use/README.md)
    - make vagrant user password less sudoer
      - create a file /etc/sudoers.d/vagrant with this content
 
-vagrant ALL=(ALL) NOPASSWD: ALL
+*vagrant ALL=(ALL) NOPASSWD: ALL*
 
    - add ssh support and make it vagrant complaint
      - sudo apt-get install ssh
